@@ -1,0 +1,62 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#scoreboard .team {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#scoreboard .score {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.add {
+  background-color: #4CAF50; /* Green */
+}
+
+.subtract {
+  background-color: #f44336; /* Red */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#rankBtn {
+  background-color: #008CBA; /* Blue */
+}
+
+#ranking {
+  margin-top: 30px;
+}
+
+#ranking ol {
+  padding-left: 0;
+}
+
+#ranking li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 2;
+}
